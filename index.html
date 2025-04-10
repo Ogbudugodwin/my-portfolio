@@ -3,71 +3,432 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogbudu Godwin - Portfolio</title>
+    <title>Ogbudu Godwin Okereke - Full Stack Developer & Data Scientist</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Ogbudu Godwin Okereke</h1>
-        <p>Web Developer | Data Scientist | Software Engineer</p>
-        <div class="profile-picture">
-            <img src="my photo.jpeg" alt="Profile Picture">
+    <!-- Navigation -->
+    <!-- <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                Insert your logo image here
+                <img src="path-to-your-logo.png" alt="Logo">
+             </div> -->
+            <!-- <div class="nav-links"> -->
+                <!-- <a href="#home">Home</a> -->
+                <!-- <a href="#about">About</a> -->
+                <!-- <a href="#skills">Skills</a> -->
+                <!-- <a href="#services">Services</a> -->
+                <!-- <a href="#projects">Projects</a> -->
+                <!-- <a href="#experience">Experience</a> -->
+                <!-- <a href="#contact">Contact</a> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </nav>  -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+   <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                 <a href="#contact">Contact</a> 
+ 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Ogbudu Godwin Okereke</h1>
+            <p>Full Stack Developer & Data Scientist</p>
         </div>
-    </header>
-    
-    <section id="about">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
         <h2>About Me</h2>
-        <p>I am a dedicated and results-driven professional with a background in Chemistry (B.Sc) and experience in web development, data science, and administration. Passionate about creating digital solutions and improving user experiences.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate Full Stack Developer and Data Scientist with a B.Sc in Chemistry. I specialize in building robust websites, web applications and deriving actionable insights from complex datasets. My experience spans frontend and backend development, database management, and data analysis.</p>
+                <p>With a strong foundation in both technical and analytical skills, I bridge the gap between development and data-driven decision making, delivering end-to-end solutions that drive organizational success.</p>
+            </div>
+            <div class="about-image">
+                <!-- Profile picture placeholder -->
+                 <img src="images/ogbudu Godwin photo.jpg" alt="">
+            </div>
+        </div>
     </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>JavaScript (Intermediate)</li>
-            <li>PHP (Intermediate)</li>
-            <li>MySQL (Intermediate)</li>
-            <li>React, HTML, CSS, sass</li>
-            <li>WordPress, Webflow, Mobirise, Shopify</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-    
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <h3>Website/Software Manager - Obejor Computers</h3>
-        <p>April 2024 - Present</p>
-        <ul>
-            <li>Address technical and design requirements.</li>
-            <li>Troubleshoot website issues and ensure functionality.</li>
-            <li>Monitor for security breaches and update software.</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
+
+    <!-- Skills Section -->
+    <!-- HTML -->
+<section id="skills" class="section skills-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="70">
+                <img src="images/javascript icon2.png" alt="JavaScript" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">JavaScript</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="65">
+                <img src="images/php icon.png" alt="PHP" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">PHP</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="70">
+                <img src="images/mysql icon.jpg" alt="MySQL" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">MySQL</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="75">
+                <img src="images/python icon.png" alt="Python" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">Python</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="65">
+                <img src="images/React icon.png" alt="React" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">React</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="60">
+                <img src="images/sass icon.jpg" alt="Sass" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">Sass</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="70">
+                <img src="images/icon-tableau.png" alt="Tableau" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">Tableau</span>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-circle" data-percent="75">
+                <img src="images/github icon.png" alt="Git" class="skill-icon">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="#e0e0e0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                    <circle class="progress-ring__progress" stroke="#00b4d8" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+            </div>
+            <span class="skill-name">Git/GitHub</span>
+        </div>
+    </div>
+</section>
+
+    <!-- Updated HTML -->
+<section id="services" class="section services-section">
+    <h2>Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Web Application Development 🖥️</h3>
+            <p>I develop dynamic and interactive web applications tailored to your specific needs. Whether it's an e-commerce platform, a dashboard, or a custom solution, I build scalable and high-performance applications that enhance user experience.</p>
+        </div>
+        <div class="service-card">
+            <h3>Website Design 🎨</h3>
+            <p>I craft visually appealing, modern, and user-friendly website designs that align with your brand identity. My designs focus on simplicity, responsiveness, and intuitive navigation to create a seamless experience for your audience.</p>
+        </div>
+        <div class="service-card">
+            <h3>Content Management Systems (CMS) ⚙️</h3>
+            <p>I work with popular CMS platforms like WordPress, Shopify, Webflow, and Mobirise to create professional, easy-to-manage websites. These platforms enable businesses to update their content effortlessly while maintaining a sleek and functional online presence.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
         <h2>Projects</h2>
-        <ul>
-            <li><strong><a href="https://www.obejorcomputers.com" target="_blank">E-commerce Website:</a></strong> Developed and maintained an e-commerce platform for Obejor Computers.</li>
-            <li><strong><a href="https://ogbudugodwin.github.io/Homestar/" target="_blank">Homestar Company Website:</a></strong> Designed and built a business website for Homestar Company.</li>
-        </ul>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>E-commerce Website - Obejor Computers</h3>
+                <p>Developed a fully functional e-commerce platform using WordPress</p>
+                <ul>
+                    <li>Customized themes and plugins for optimal user experience</li>
+                    <li>Integrated payment gateways and product management systems</li>
+                    <li>Optimized for SEO and performance</li>
+                </ul>
+                <p><a href="http://www.obejorcomputers.com" target="_blank">www.obejorcomputers.com</a></p>
+            </div>
+            <div class="project-item">
+                <h3>Real Estate Website - Homestar</h3>
+                <p>Designed and developed a responsive real estate company website</p>
+                <ul>
+                    <li>Built with HTML, CSS, and JavaScript</li>
+                    <li>Implemented modern UI/UX design principles</li>
+                    <li>Hosted on GitHub Pages</li>
+                </ul>
+                <p><a href="https://ogbudugodwin.github.io/Homestar/" target="_blank">https://ogbudugodwin.github.io/Homestar/</a></p>
+            </div>
+            <div class="project-item">
+                <h3>House Price Prediction Model</h3>
+                <p>Created a machine learning model to predict house prices</p>
+                <ul>
+                    <li>Utilized Python with libraries like Pandas, Scikit-learn</li>
+                    <li>Performed data preprocessing and feature engineering</li>
+                    <li>Visualized results using Tableau</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Country Explorer Web Application</h3>
+                <p>Built an interactive web application using React to explore country information</p>
+                <ul>
+                    <li>Fetched and displayed country data from a REST API on the homepage</li>
+                    <li>Implemented a search input to filter countries by name</li>
+                    <li>Added region-based filtering functionality</li>
+                    <li>Created detailed country pages accessible via clickable cards</li>
+                    <li>Enabled navigation to border countries from the detail page</li>
+                    <li>Integrated a light/dark mode toggle for enhanced user experience</li>
+                </ul>
+                <p><a href="https://my-react-app-liart-mu.vercel.app/" target="_blank">my-react-app-liart-mu.vercel.app</a></p>
+            </div>
+        </div>
     </section>
-    
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>LM TECH Hub – Certification in Data Science (2024)</li>
-            <li>YESUNA Global Skill Acquisition – Web Design (2024)</li>
-            <li>TechyJaunt Advanced Bootcamp – Frontend Development (2024)</li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:ogbudugodwin02@gmail.com">ogbudugodwin02@gmail.com</a></p>
-        <p>Phone: +234 707 706 5057 | +234 812 471 5792</p>
-    </section>
-    
+    <!-- Updated Experience Section -->
+<section id="experience" class="section experience-section">
+    <h2>Professional Experience</h2>
+    <div class="experience-container">
+        <div class="experience-item">
+            <h3>Website/Software Manager - Obejor Computers</h3>
+            <p>April 2024 - Present</p>
+            <ul>
+                <li>Developed and maintained full-stack web applications</li>
+                <li>Implemented data tracking and analytics features</li>
+                <li>Optimized website performance and security</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Data Science Intern - LM TECH Hub</h3>
+            <p>Jan 2024 - March 2024</p>
+            <ul>
+                <li>Performed data cleaning and preprocessing</li>
+                <li>Built predictive models using Python</li>
+                <li>Created visualizations for stakeholder presentations</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Frontend Development Trainee - TechyJaunt Advanced Bootcamp</h3>
+            <p>2024</p>
+            <ul>
+                <li>Completed an intensive bootcamp focused on modern frontend development</li>
+                <li>Mastered React, JavaScript, and responsive design techniques</li>
+                <li>Developed real-world projects to enhance UI/UX skills</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Updated Contact Section -->
+<section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p>Email: ogbudugodwin02@gmail.com</p>
+            <p>Phone: +234 7077065057, +234 8124715792</p>
+            <div class="social-icons">
+                <!-- Insert your social media icons here -->
+                <a href="https://www.linkedin.com/in/ogbudu-godwin-okereke-791528246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <img src="images/linkedin icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/2348160536047" target="_blank">
+                    <img src="images/whatsapp.png" alt="WhatsApp">
+                </a>
+                <a href="https://t.me/+2348124715792" target="_blank">
+                    <img src="images/telegram icon.png" alt="Telegram">
+                </a>
+                <a href="https://www.facebook.com/gordonbrown.ogbudu.5" target="_blank">
+                    <img src="images/facebook icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Ogbudu Godwin. All Rights Reserved.</p>
+        <p>&copy; 2025 Ogbudu Godwin Okereke. All rights reserved.</p>
+        <p>Designed & Developed by <a href="#">Ogbudu Godwin</a></p>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('.nav-links a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const sectionId = this.getAttribute('href');
+                document.querySelector(sectionId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Enhanced scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Animate children elements with stagger effect
+                    const children = entry.target.querySelectorAll('.skill-card, .service-card, .project-item, .experience-item');
+                    children.forEach((child, index) => {
+                        setTimeout(() => {
+                            child.style.opacity = '1';
+                            child.style.transform = 'translateY(0)';
+                        }, index * 100);
+                    });
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+
+        // Initialize animations
+        document.querySelectorAll('.section, .hero').forEach(section => {
+            section.classList.add('fade-in');
+            const cards = section.querySelectorAll('.skill-card, .service-card, .project-item, .experience-item');
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'all 0.5s ease-out';
+            });
+            observer.observe(section);
+        });
+
+
+
+
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = [
+        { id: '#skills', items: '.skill-item', progress: '.progress-ring__progress' },
+        { id: '#services', items: '.service-card' },
+        { id: '#projects', items: '.project-item' }
+    ];
+
+    sections.forEach(section => {
+        const target = document.querySelector(section.id);
+        const items = document.querySelectorAll(section.items);
+        const progressItems = section.progress ? document.querySelectorAll(section.progress) : null;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    items.forEach((item, index) => {
+                        setTimeout(() => {
+                            item.classList.add('visible');
+                        }, index * 100);
+                    });
+
+                    if (progressItems) {
+                        progressItems.forEach(circle => {
+                            const circleContainer = circle.closest('.skill-circle');
+                            const percent = circleContainer.getAttribute('data-percent');
+                            const radius = circle.r.baseVal.value;
+                            const circumference = radius * 2 * Math.PI;
+                            circle.style.strokeDasharray = `${circumference} ${circumference}`;
+                            circle.style.strokeDashoffset = circumference;
+                            const offset = circumference - (percent / 100) * circumference;
+                            setTimeout(() => {
+                                circle.style.strokeDashoffset = offset;
+                            }, 300);
+                        });
+                    }
+                } else {
+                    items.forEach(item => item.classList.remove('visible'));
+                    if (progressItems) {
+                        progressItems.forEach(circle => {
+                            const circumference = circle.r.baseVal.value * 2 * Math.PI;
+                            circle.style.strokeDashoffset = circumference;
+                        });
+                    }
+                }
+            });
+        }, { threshold: 0.2 });
+
+        observer.observe(target);
+    });
+});
+
+
+// JavaScript for scroll-triggered fade-in
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = [
+        { id: '#experience', items: '.experience-item' },
+        { id: '#contact', items: '.contact-info' }
+    ];
+
+    sections.forEach(section => {
+        const target = document.querySelector(section.id);
+        const items = document.querySelectorAll(section.items);
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    items.forEach((item, index) => {
+                        setTimeout(() => {
+                            item.classList.add('visible');
+                        }, index * 100); // Staggered animation
+                    });
+                } else {
+                    items.forEach(item => {
+                        item.classList.remove('visible');
+                    });
+                }
+            });
+        }, {
+            threshold: 0.2 // Trigger when 20% of section is visible
+        });
+
+        observer.observe(target);
+    });
+});
+    </script>
 </body>
 </html>
