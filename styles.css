@@ -108,8 +108,8 @@ body {
     flex: 1;
     /* Insert your profile picture here */
     /* background: url('images/javascipt\ icon.jpg') center/cover; */
-    height: 300px;
-    /* width: 500px; */
+    height: 350px;
+    width: 300px;
     transform: translateY(70px);
     transition: all 0.8s ease-out;
     border-radius: 10px;
